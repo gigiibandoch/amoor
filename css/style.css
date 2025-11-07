@@ -1,0 +1,279 @@
+:root {
+    --main-bg-color: brown;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a{
+      text-decoration: none; 
+  }
+
+  /*============================
+  header
+  ==============================*/
+  header {
+    padding: 0.5vw 2vw;
+    background-color: #AC5555;
+    display: flex;
+    align-items: center;
+  }
+  header img.logo {
+    width: 5%;
+    height: 5%;
+  }
+  header h1 {
+    color: #FFFF;
+    font-size: 20px;
+    margin: 0 80vw 0 0;
+  }
+  header a {
+    color: white;
+    font-size: 20px;
+    margin: 0 2.5vw 0 0;
+  }
+  /*============================
+  banner
+  ==============================*/
+  section.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw 0 6vw 20vw;
+  }
+  section.banner div img.fofo1 {
+    width: 20vw;
+    height: 20vw;
+    margin: 0 20vw 0 0;
+  }
+  section.banner div.nene {
+    align-items: center;
+    text-align: center;
+    margin: 0 6vw 0 0;
+  }
+  section.banner div.nene img.fofo2 {
+    width: 20%;
+    height: 20%;
+  }
+  section.banner div.nene h2 img {
+    width: 40%;
+  }
+  section.banner div.nene p {
+    margin: 2vw 0 2vw 0;
+    color: #AEA19A;
+    font-size: 2vw;
+  }
+  /*============================
+  menu
+  ==============================*/
+  section.menu {
+    margin: 3vw 5vw;
+  }
+  section.menu div {
+    background-color: #AC5555;
+    border-radius: 20px;
+    padding: 3vw 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+  section.menu button {
+    margin: 2vw 20vw;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+    color: #AC5555;
+    font-size: 25px;
+  }
+  /*============================
+  footer
+  ==============================*/
+  footer {
+    margin: 4vw 0 0 0;
+    background-color: #AC5555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 8vw 2vw 32vw;
+  }
+  footer div p.informacoes {
+    color: white;
+    font-size: 1.5vw;
+  }
+  footer div.gatinhos p {
+    font-size: 1vw;
+    margin: 1.2vw;
+    color: white;
+  }
+  footer div img.maozinha {
+    margin: 2vw 0 0 16vw;
+    width: 10%;
+  }
+  
+  /*============================
+  GATINHO
+  aniversario
+  ==============================*/
+
+  section.aniversario h2 {
+    color: #AEA19A;
+    text-align: center;
+    font-size: 1.7vw;
+    margin: 4vw 0 2vw 0;
+  }
+  section.aniversario img.seudia {
+    width: 30%;
+    height: 30%;
+    margin: 2vw 0 3vw 35vw;
+    padding: 1.5vw 4vw;
+    background-color: #AC5555;
+    border-radius: 20px;
+  }
+  /*============================
+  amo
+  ==============================*/
+  section.amo h2.amote {
+    width: 30%;
+    margin: 0 0 0 35vw;
+  } 
+  section.amo div.um {
+    align-items: center;
+    display: inline-block;
+    margin: 2vw 18vw 2vw 20vw;
+    display: flex;
+  }
+  section.amo div.um li div img.um_fofo {
+    width: 50%;
+    margin: 0 0 0 5vw;
+  }
+  section.amo div.um li div {
+    background-color: white;
+    padding: 2vw 0 2vw 2vw;
+    border-radius: 20px;
+  }
+  section.amo div.um li {
+    background-color: #AC5555;
+    padding: 2vw;
+    margin: 0 2vw 0 0;
+    border-radius: 20px;
+  }
+  section.amo div.um li div img.dois_fofo {
+    width: 50%;
+    margin: 0 0 0 5vw;
+  }
+  section.amo div.dois {
+    align-items: center;
+    display: inline-block;
+    margin: 0 18vw 0 20vw;
+    display: flex;
+  }
+  section.amo div.dois li div img.tres_fofo {
+    width: 50%;
+    margin: 0 0 0 5vw;
+  }
+  section.amo div.dois li div img.quatro_fofo {
+    width: 50%;
+    margin: 0 0 0 4vw;
+  }
+  section.amo div.dois li div.tres {
+    background-color: white;
+    padding: 2vw 0 2vw 2vw;
+    border-radius: 20px;
+  }
+  section.amo div.dois li div.quatro {
+    background-color: white;
+    padding: 3vw 0 3vw 3vw;
+    border-radius: 20px;
+  }
+  section.amo div.dois li {
+    background-color: #AC5555;
+    padding: 2vw;
+    margin: 0 2vw 0 0;
+    border-radius: 20px;
+  }
+  section.amo div li div p {
+    color: #AEA19A;
+    text-align: center;
+  }
+  /*============================
+  playlist
+  ==============================*/
+  section.playlist {
+    align-items: center;
+    text-align: center;
+  }
+  section.playlist h2 img {
+    width: 30%;
+    margin: 2vw 0 2vw 0;
+  }
+  section.playlist a img {
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0 20px 10px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.playlist p.foofoo {
+    color: #AEA19A;
+    margin: 2vw 0 2vw 0;
+  }
+  section.playlist p.vermelho {
+    font-size: 1.3rem;
+    color: white;
+    background-color: #AC5555;
+    padding: 1vw 2vw 1vw 2vw;
+    margin: 0 10vw 0 10vw;
+    border-radius: 20px;
+  }
+
+  /*============================
+  musicas
+  ==============================*/
+  section.musicas ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+  }
+  section.musicas ul li { 
+    margin: 2vw;
+    text-align: center;
+    background-color: white;
+    padding: vw;
+  }
+  section.musicas ul li img.mu1 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu2 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu3 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu4 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu5 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu6 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu7 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  section.musicas ul li img.mu8 {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
+  }
