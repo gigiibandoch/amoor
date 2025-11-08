@@ -22,7 +22,7 @@
   header h1 {
     color: #FFFF;
     font-size: 20px;
-    margin: 0 65vw 0 0;
+    margin: 0 55vw 0 0;
   }
   header nav {
     display: flex;
@@ -281,6 +281,7 @@
     border-radius: 20px;
     box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.3);
   }
+
 
 
 
